@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(255, 251, 215);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.main_container{
+    max-width: 80%;
+    margin: 10% auto;
+}
+
+.title{
+    font-size: 52px;
+    color: rgb(39, 39, 39);
+    line-height: 20px;
+}
+.sub-title{
+    font-size: 18px;
+    color: rgb(39, 39, 39);
+    margin-bottom: px;
+}
+
+[type="text"]{
+    width: 60%;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: none;
+    outline: 1px solid rgb(0, 104, 0);
+    transition: outline ease-in 0.5s;
+}
+
+[type="text"]:active, [type="text"]:hover, [type="text"]:focus{
+    outline: 1px solid rgb(2, 173, 17);
+    
+}
+
+[type="submit"]{
+    width: 15%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(1, 153, 1);
+    font-size: 18px;
+    color: antiquewhite;
+    transition: background-color ease-in 0.5s;
+}
+
+[type="submit"]:active{
+    transform: translateX(2px) translateY(2px);
+} 
+
+[type="submit"]:hover{
+    background-color: rgb(1, 44, 1);
+}
+
+.result-icon{
+    font-size: 24px; 
+    padding-left: 10px;
+    display: none;
+}
+.result-image{
+    display: none;
+}
+
+.result-text{
+    display: none;
+    font-size: 18px; 
+    font-weight: bold;
+    color: green;
+}
